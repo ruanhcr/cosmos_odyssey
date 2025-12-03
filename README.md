@@ -10,9 +10,8 @@ O projeto utiliza **Code Generation** (Retrofit, Injectable, JsonSerializable) e
 1. **Clone o repositório.**
 2. **Configure as Variáveis de Ambiente:**
     Crie um arquivo `.env` na raiz do projeto e adicione sua chave da NASA:
-
-   NASA_API_KEY=SUA_CHAVE_AQUI (ou DEMO_KEY)
-   BASE_URL=[https://api.nasa.gov/](https://api.nasa.gov/)
+    NASA_API_KEY=SUA_CHAVE_AQUI (ou DEMO_KEY)
+    BASE_URL=[https://api.nasa.gov/](https://api.nasa.gov/)
 
 4. **Obtenha as depedências:**
    flutter pub get
@@ -40,3 +39,7 @@ O projeto utiliza **Code Generation** (Retrofit, Injectable, JsonSerializable) e
 - [x] Testes de Integração (Mockando HttpClientAdapter)
 - [x] DevOps: CI/CD com GitHub Actions (Linter, Tests, Web Build)
 - [x] Deploy Automático (GitHub Pages)
+
+# Screenshots
+<br>![exemplo](https://i.imgur.com/f6ToClc.png)
+
