@@ -14,9 +14,9 @@ O projeto utiliza **Code Generation** (Retrofit, Injectable, JsonSerializable) e
    NASA_API_KEY=SUA_CHAVE_AQUI (ou DEMO_KEY)
    BASE_URL=[https://api.nasa.gov/](https://api.nasa.gov/)
 
-3. **Obtenha as depedências:**
+4. **Obtenha as depedências:**
    flutter pub get
-4. **Execute o gerador de código:**
+5. **Execute o gerador de código:**
    dart run build_runner build --delete-conflicting-outputs
 
 # Development Roadmap
