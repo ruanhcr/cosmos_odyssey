@@ -96,6 +96,7 @@ class ApodView extends StatelessWidget {
               StretchMode.blurBackground,
             ],
             title: Text(
+              textAlign: TextAlign.center,
               picture.title,
               style: typography.heading(fontSize: 12.0, color: Colors.white),
             ),
