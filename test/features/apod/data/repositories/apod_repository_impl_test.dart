@@ -15,7 +15,12 @@ void main() {
   late MockApodRemoteDataSource mockRemoteDataSource;
 
   setUpAll(() async {
-    await dotenv.load(fileName: ".env");
+    try {
+      await dotenv.load(fileName: ".env");
+    } catch (_) {}
+
+    dotenv.env['NASA_API_KEY'] = 'TEST_KEY';
+    dotenv.env['BASE_URL'] = 'https://api.nasa.gov/';
   });
 
   setUp(() {
